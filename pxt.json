@@ -1,0 +1,40 @@
+{
+    "name": "tree man",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "color-coded-tilemap": "*",
+        "animation": "*",
+        "multiplayer": "*",
+        "controller": "*",
+        "arcade-mini-menu": "github:riknoll/arcade-mini-menu#v0.1.0",
+        "sprite-scaling": "*",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "arcade-tile-scanner": "github:riknoll/arcade-tile-scanner#v0.0.1",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "arcade-fancy-text": "github:riknoll/arcade-fancy-text#v0.2.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.1.32",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
