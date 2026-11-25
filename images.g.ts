@@ -65,6 +65,25 @@ namespace myImages {
 . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . 
 `;
+            case "image7":
+            case "zobey":return img`
+. . . . . . f f f f . . . . . . 
+. . . . f f f 2 2 f f f . . . . 
+. . . f f f 2 2 2 2 f f f . . . 
+. . f f f e e e e e e f f f . . 
+. . f f e 2 2 2 2 2 2 e e f . . 
+. . f e 2 f f f f f f 2 e f . . 
+. . f f f f 7 7 7 7 f f f f . . 
+. f f 7 f b f 7 7 f b f 7 f f . 
+. f 7 7 7 1 f 7 7 f 1 7 7 7 f . 
+. . f 7 7 7 7 7 7 7 7 7 7 f . . 
+. . . f 7 7 7 7 7 7 7 7 f . . . 
+. . 7 7 f 2 2 2 2 2 2 f 7 7 . . 
+. . 7 7 f 2 2 2 2 2 2 f 7 7 . . 
+. . 7 7 f 4 4 5 5 4 4 f 7 7 . . 
+. . . . . f f f f f f . . . . . 
+. . . . . f f . . f f . . . . . 
+`;
             case "image5":
             case "gay 2":return img`
 ........................
@@ -274,6 +293,24 @@ namespace myImages {
 ...............feefce...............
 ...............fceeec...............
 ...............ffceec...............
+`;
+            case "image6":
+            case "FIN":return img`
+. . 1 1 . . . . . . . . 1 1 . 
+. . 1 1 . . . . . . . . 1 1 . 
+. . 1 1 1 1 1 1 1 1 1 1 1 1 . 
+. . 1 d d d d d d d d d d 1 . 
+. . 1 d f d d d d d d f d 1 . 
+. . 1 d d d d d d d d d d 1 . 
+. . 1 d f d d d d d d f d 1 . 
+. . 1 d d f f f f f f d d 1 . 
+. . 1 d d d d d d d d d d 1 . 
+. . 1 1 1 1 1 1 1 1 1 1 1 1 . 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+d d 9 9 9 9 9 9 9 9 9 9 9 9 d 
+d d 9 9 9 9 9 9 9 9 9 9 9 9 d 
+. . 9 9 9 9 9 9 9 9 9 9 9 9 . 
 `;
         }
         return null;

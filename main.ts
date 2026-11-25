@@ -11,19 +11,44 @@ namespace SpriteKind {
     export const Crosshair = SpriteKind.create()
     export const Moon = SpriteKind.create()
 }
+namespace StatusBarKind {
+    export const cool = StatusBarKind.create()
+}
+controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
+    controller.moveSprite(cool_gay, 100, 100)
+})
 controller.player2.onButtonEvent(ControllerButton.B, ControllerButtonEvent.Pressed, function () {
     controller.moveSprite(gay_2)
 })
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    controller.moveSprite(cool_gay, 100, 100)
+    fancyText.setFrame(myTextSprite, assets.image`FIN`)
 })
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
+    controller.moveSprite(cool_gay, 100, 100)
+})
+controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
+    controller.moveSprite(cool_gay, 100, 100)
+})
+controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
+    controller.moveSprite(cool_gay, 100, 100)
+})
+let zobe: Sprite = null
+let myTextSprite: fancyText.TextSprite = null
+let gay_2: Sprite = null
+let cool_gay: Sprite = null
+light.setAll("test".length)
+game.onUpdate(function () {
+    info.setLife(3)
+})
+game.onUpdate(function () {
 	
 })
-let myTextSprite: fancyText.TextSprite = null
-let cool_gay: Sprite = null
-let gay_2: Sprite = null
-light.setAll("test".length)
+forever(function () {
+    light.setAll("RAINBOW".length)
+})
+forever(function () {
+    zobe = sprites.create(assets.image`zobey`, SpriteKind.Enemy)
+})
 forever(function () {
 	
 })
@@ -40,5 +65,5 @@ forever(function () {
     cool_gay = sprites.create(assets.image`tree man cool gay`, SpriteKind.Player)
 })
 forever(function () {
-    myTextSprite = fancyText.create("legos", 0)
+    myTextSprite = fancyText.create("RAD DWARF", 0)
 })
